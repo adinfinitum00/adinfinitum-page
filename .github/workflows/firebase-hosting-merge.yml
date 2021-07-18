@@ -14,8 +14,8 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ADINFINITUM_EC6E4 }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ADINFINITUMCOLOMBIA }}'
           channelId: live
-          projectId: adinfinitum-ec6e4
+          projectId: adinfinitumcolombia
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
